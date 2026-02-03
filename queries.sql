@@ -82,3 +82,6 @@ ORDER BY FechaCompra
 -- 6
 SELECT * FROM Facturas
 WHERE NumeroFactura = 1005
+
+ALTER TABLE Facturas
+RENAME COLUMN telefono_cliente TO TelefonoCliente;Grac
